@@ -9,7 +9,7 @@ export default function WeatherApp() {
   const [humidity, setHumidity] = useState("");
   const [wind, setWind] = useState("");
   const [temperature, setTemperature] = useState("");
-  const [forecast, _setForecast] = useState([]);
+  const [forecast] = useState([]);
   const [emoji, setEmoji] = useState("");
 
   // Function to map condition to an emoji
